@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: testRunner.LoginTestRunner
--------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.317 sec - in testRunner.LoginTestRunner

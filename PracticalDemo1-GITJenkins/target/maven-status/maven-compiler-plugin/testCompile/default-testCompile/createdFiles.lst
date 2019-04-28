@@ -1,7 +1,0 @@
-pageObjects\LoginPage.class
-pageObjects\BasePage.class
-pageObjects\ProductList.class
-pageObjects\HomePage.class
-pageObjects\checkoutPage.class
-stepDefinition\Login_Steps.class
-testRunner\LoginTestRunner.class
