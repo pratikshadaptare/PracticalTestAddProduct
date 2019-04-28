@@ -1,0 +1,161 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login with valid credentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1853161782,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on home page",
+            "match": {
+              "location": "Login_Steps.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 437733663,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username and password and click on Login button",
+            "match": {
+              "location": "Login_Steps.user_enters_username_and_password_and_click_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69570357,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be logged in and Verified",
+            "match": {
+              "location": "Login_Steps.user_should_be_logged_in_and_Verified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3611404470,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login_Steps.startUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Successfull Checkout",
+        "description": "",
+        "id": "endtoend-scenario-for-testmeapp;successfull-checkout",
+        "after": [
+          {
+            "result": {
+              "duration": 789679264,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login_Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9426260344,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Navigate to All categories - electronics and Head phone",
+            "match": {
+              "location": "Login_Steps.navigate_to_All_categories_electronics_and_Head_phone()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 321224511,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Add product into shopping cart",
+            "match": {
+              "location": "Login_Steps.add_product_into_shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4253311954,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "proceed to checkout",
+            "match": {
+              "location": "Login_Steps.proceed_to_checkout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15422627114,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "select bank and add credentials",
+            "match": {
+              "location": "Login_Steps.select_bank_and_add_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9278358,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "redirected to the thank you page",
+            "match": {
+              "location": "Login_Steps.redirected_to_the_thank_you_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@AddToCartandPaymentProcess"
+          }
+        ]
+      }
+    ],
+    "name": "EndToEnd Scenario for TestMeApp",
+    "description": "Login with Rick account and purchase producy and complete payment process.",
+    "id": "endtoend-scenario-for-testmeapp",
+    "keyword": "Feature",
+    "uri": "EndToEndScenario.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@EndToEndScenario"
+      }
+    ]
+  }
+]
